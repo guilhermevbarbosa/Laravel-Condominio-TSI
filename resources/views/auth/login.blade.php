@@ -14,5 +14,9 @@
             <a href="{{route('social.login', ['provider'=>'facebook'])}}">Login Facebook</a>
         </div>
 
+        <div>
+            <a href="{{route('social.login', ['provider'=>'twitter'])}}">Login Twitter</a>
+        </div>
+
     </x-jet-authentication-card>
 </x-guest-layout>
