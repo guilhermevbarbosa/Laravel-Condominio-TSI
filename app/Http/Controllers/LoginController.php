@@ -30,11 +30,4 @@ class LoginController extends Controller
         Auth::login($user);
         return redirect(route('dashboard'));
     }
-
-    public function showRegrasHTML()
-    {
-        return response()->json(
-            view('regras')->render()
-        );
-    }
 }
