@@ -34,6 +34,6 @@ class NoticiasController extends Controller
             return response()->json($noticias);
         }
 
-        return response()->json(["error" => "Não há notícias cadastradas"], 404);
+        return response()->json(["error" => "Não há notícias ou regras cadastradas"], 404);
     }
 }
